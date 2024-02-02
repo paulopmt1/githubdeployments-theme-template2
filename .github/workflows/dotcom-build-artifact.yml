@@ -19,7 +19,7 @@ jobs:
       uses: php-actions/composer@v6
       with:
         dev: no
-        php_version: 8.0
+        php_version: 7.4
 
     - name: Upload the artifact
       uses: actions/upload-artifact@v4
